@@ -6,7 +6,7 @@ const ReadMoreBtn = () => {
       <div className="read-more">
          <a href="@">
             read more
-            <img src="/img/arrow-right.svg" alt="arrow" />
+            <img src="./img/arrow-right.svg" alt="arrow" />
          </a>
       </div>
    );

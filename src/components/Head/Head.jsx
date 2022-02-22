@@ -18,7 +18,7 @@ const Head = () => {
                </li>
             </ul>
             <div className="searchBlock">
-               <img src="/img/search.svg" alt="Search" />
+               <img src="./img/search.svg" alt="Search" />
                <input type="text" placeholder="Search" />
             </div>
          </header>
@@ -26,9 +26,9 @@ const Head = () => {
             <div className="social">
                <p>Follow us</p>
                <div className="social-block">
-                  <img src="/img/instagram.svg" alt="instagram" />
-                  <img src="/img/twitter.svg" alt="twitter" />
-                  <img src="/img/facebook.svg" alt="facebook" />
+                  <img src="./img/instagram.svg" alt="instagram" />
+                  <img src="./img/twitter.svg" alt="twitter" />
+                  <img src="./img/facebook.svg" alt="facebook" />
                </div>
             </div>
             <div className="main-content">
@@ -42,7 +42,7 @@ const Head = () => {
                <div className="scroll-down">
                   <a href="#information">
                      Scroll down
-                     <img src="/img/arrow.svg" alt="arrow" />
+                     <img src="./img/arrow.svg" alt="arrow" />
                   </a>
                </div>
             </div>

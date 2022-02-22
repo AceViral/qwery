@@ -25,7 +25,7 @@ const Culture = () => {
                </h6>
                <ReadMoreBtn />
             </div>
-            <img src="/img/information2.png" alt="" />
+            <img src="./img/information2.png" alt="" />
          </div>
       </div>
    );

@@ -25,7 +25,7 @@ const Foot = () => {
                      <div className="emailBtn">
                         <input type="text" placeholder="Email address" />
                         <button>
-                           <img src="/img/black-arrow.svg" alt="black-arrow" />
+                           <img src="./img/black-arrow.svg" alt="black-arrow" />
                         </button>
                         <div className="whiteLine"></div>
                      </div>
@@ -63,9 +63,9 @@ const Foot = () => {
                   </div>
                   <div className="social">
                      <div>
-                        <img src="/img/facebook.svg" alt="facebook" />
-                        <img src="/img/twitter.svg" alt="twitter" />
-                        <img src="/img/instagram.svg" alt="instagram" />
+                        <img src="./img/facebook.svg" alt="facebook" />
+                        <img src="./img/twitter.svg" alt="twitter" />
+                        <img src="./img/instagram.svg" alt="instagram" />
                      </div>
                   </div>
                </div>

@@ -5,7 +5,7 @@ import "./Information.scss";
 const Information = () => {
    return (
       <div className="information" id="information">
-         <img src="/img/information.png" alt="" />
+         <img src="./img/information.png" alt="" />
          <div className="description">
             <div className="paragraph">
                <div className="line"></div>
