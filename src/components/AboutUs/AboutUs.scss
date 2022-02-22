@@ -1,0 +1,43 @@
+.AboutUsBlock {
+   display: flex;
+   justify-content: center;
+   margin-top: 250px;
+   .AboutUs {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      text-align: center;
+      width: 1461px;
+      height: 965px;
+      background-image: url(../../../public/img/bg.png);
+      background-size: 1461px 985px;
+      background-repeat: no-repeat;
+      .paragraph {
+         margin: 0 auto;
+         display: inline-flex;
+         .line {
+            width: 72px;
+            border-bottom: 2px solid #fbd784;
+            transform: translateY(-50%);
+            margin: 0 25px;
+         }
+         p {
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 6px;
+            color: #fbd784;
+         }
+      }
+      h4 {
+         margin: 0;
+         font-weight: bold;
+         font-size: 64px;
+      }
+      h5 {
+         margin-bottom: 39px;
+         font-weight: 600;
+         font-size: 18px;
+         color: #ffffff;
+      }
+   }
+}

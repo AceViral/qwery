@@ -1,0 +1,127 @@
+header {
+   display: flex;
+   margin: 58px 85px;
+   justify-content: space-between;
+   align-items: center;
+   p {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      /* identical to box height */
+      letter-spacing: 0.01em;
+      text-transform: capitalize;
+   }
+   ul {
+      display: flex;
+
+      li {
+         margin: 0 50px;
+         list-style-type: none;
+         letter-spacing: 0.02em;
+         font-weight: 600;
+         font-size: 18px;
+         line-height: 25px;
+         a {
+            text-decoration: none;
+            color: #fff;
+         }
+      }
+   }
+   .searchBlock {
+      display: flex;
+      img {
+         margin-right: 10px;
+         opacity: 0.6;
+      }
+      input {
+         background: transparent;
+         width: 60px;
+         border: 0;
+         outline: none;
+         font-weight: normal;
+         font-size: 17px;
+         line-height: 23px;
+
+         color: #ffffff;
+         &::placeholder {
+            color: #ffffff;
+            opacity: 0.6;
+         }
+      }
+   }
+}
+.content {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+   margin-left: 80px;
+   margin-bottom: 700px;
+   .social {
+      margin-top: 150px;
+      p {
+         margin: auto;
+         writing-mode: vertical-lr;
+         font-weight: 600;
+         font-size: 18px;
+      }
+      .social-block {
+         writing-mode: vertical-lr;
+         img {
+            margin-top: 20px;
+         }
+      }
+   }
+   .main-content {
+      margin-top: 80px;
+      .paragraph {
+         display: flex;
+         .line {
+            width: 72px;
+            border-bottom: 2px solid #ffc178;
+            transform: translateY(-50%);
+            margin-right: 32px;
+         }
+         p {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 6px;
+
+            color: #ffc178;
+         }
+      }
+      h1 {
+         font-weight: 700;
+         font-size: 96px;
+         line-height: 100px;
+         margin: 0;
+      }
+      h2 {
+         margin: 0;
+         font-weight: 400;
+         font-size: 88px;
+         line-height: 100px;
+      }
+      .scroll-down {
+         display: flex;
+         justify-content: center;
+         margin-top: 120px;
+         a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            &:hover {
+               img {
+                  transform: translateY(40%);
+               }
+            }
+         }
+         img {
+            margin-left: 20px;
+            transform: translateY(20%);
+            transition: transform 0.2s ease-in-out;
+         }
+      }
+   }
+}

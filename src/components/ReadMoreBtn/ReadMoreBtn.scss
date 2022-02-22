@@ -1,0 +1,19 @@
+.read-more {
+   a {
+      text-decoration: none;
+      color: #fbd784;
+      font-weight: 600;
+      font-size: 18px;
+      &:hover {
+         img {
+            transform: translateX(40%) translateY(20%);
+         }
+      }
+   }
+   img {
+      fill: #fbd784;
+      margin-left: 10px;
+      transform: translateX(20%) translateY(20%);
+      transition: transform 0.2s ease-in-out;
+   }
+}

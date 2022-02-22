@@ -1,0 +1,41 @@
+.cultureBlock {
+   margin-top: 226px;
+   padding-top: 100px;
+   display: flex;
+   justify-content: center;
+   .culture {
+      width: 1461px;
+      display: flex;
+      justify-content: space-between;
+      .description {
+         margin-top: 100px;
+         .paragraph {
+            margin: 0;
+            display: flex;
+            .line {
+               margin-right: 24px;
+               width: 72px;
+               border-bottom: 2px solid #fbd784;
+               transform: translateY(-50%);
+            }
+            p {
+               font-weight: bold;
+               font-size: 18px;
+               letter-spacing: 6px;
+               color: #fbd784;
+            }
+         }
+         h5 {
+            margin: 27px 0;
+            font-weight: bold;
+            font-size: 64px;
+         }
+         h6 {
+            margin: 27px 0;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 32px;
+         }
+      }
+   }
+}

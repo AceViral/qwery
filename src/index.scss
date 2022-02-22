@@ -1,0 +1,23 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background: #000 url(../public/img/main-bg.png);
+   background-size: 1920px auto;
+   color: #fff;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   width: 1920px;
+   zoom: 0.8;
+   overflow-x: hidden;
+}
+html {
+   scroll-behavior: smooth;
+}
+* {
+   font-family: "Open Sans", sans-serif;
+   font-style: normal;
+}
