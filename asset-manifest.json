@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/qwery/static/css/main.c836687c.css",
+    "main.js": "/qwery/static/js/main.4bc11d21.js",
+    "static/js/787.ea64affa.chunk.js": "/qwery/static/js/787.ea64affa.chunk.js",
+    "static/media/main-bg.png": "/qwery/static/media/main-bg.05c63d26fb7c956ba4e1.png",
+    "static/media/bg.png": "/qwery/static/media/bg.d34790bd7aa0be77447e.png",
+    "index.html": "/qwery/index.html",
+    "main.c836687c.css.map": "/qwery/static/css/main.c836687c.css.map",
+    "main.4bc11d21.js.map": "/qwery/static/js/main.4bc11d21.js.map",
+    "787.ea64affa.chunk.js.map": "/qwery/static/js/787.ea64affa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c836687c.css",
+    "static/js/main.4bc11d21.js"
+  ]
+}
